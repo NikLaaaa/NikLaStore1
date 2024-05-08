@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap');
+body {
+   font-family: 'Montserrat', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+
+   .cart {
+   position: absolute;
+    width: 725px;
+   left: 1700px;
+   top: 50px;
+    font-size: 40px;
+     border: 2px solid black;
+     border-radius: 10px;
+     display: flex;
+     align-items: center;
+   }
+   .cart h2 {
+     margin: 0;
+   }
+   .cart img {
+     position: relative;
+     left: 35px;
+     width: 80px;
+     height: 80px;
+   }
+
+.totaltext{
+    text-align: center;
+    position: relative;
+    left: 50px;
+}
+
+.vsego {
+        font-family: 'Lexend Peta', sans-serif;
+   font-size: 32px;
+}
+
+
+.card {
+   position: relative;
+   left: -11px;
+   top: 10px;
+   user-select: none;
+ width: 300px;
+ padding: 10px;
+ margin: 10px auto;
+}
+
+
+.card2 {
+   position: relative;
+   left: -11px;
+   top: 10px;
+   user-select: none;
+ width: 300px;
+ padding: 10px;
+ margin: 10px auto;
+}
+
+
+.card h2 {
+ margin-top: 0;
+ cursor: pointer; /* Делаем текст заголовка кликабельным */
+}
+
+
+.card2 h2 {
+ margin-top: 0;
+ cursor: pointer; /* Делаем текст заголовка кликабельным */
+}
+
+
+.checkbox-label {
+ display: block;
+ margin-bottom: 10px;
+}
+
+
+
+
+
+
+#options {
+ display: none;
+}
+
+
+       #options1 {
+ display: none;
+}
+
+
+/* Стили для выделения выбранных вариантов */
+input:checked + .checkbox-label {
+ color: blue; /* Цвет текста для выбранных вариантов */
+}
+
+
+
+
+
+
+
+
+.header_left {
+
+
+   font-family: 'Lexend Peta', sans-serif;
+   position: absolute;
+   top: -580px;
+   left: -815px;
+   width: 65%;
+   height: 100%;
+   font-size: 40px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-end;
+   padding: 0 5vw;
+   box-sizing: border-box;
+   text-align: right;
+}
+
+
+.catalog {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+
+.Koshik {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   border: 2px solid black;
+   border-radius: 10px;
+   text-align: center;
+   padding: 10px;
+}
+
+
+.Koshik2 {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   border: 2px solid black;
+}
+
+
+header {
+   width: 100%;
+   height: 100vh;
+   background-color: white;
+   background-size: cover;
+   display: flex;
+}
+.product {
+   font-size: 20px;
+   position: absolute;
+   left: 100px;
+   top: 300px;
+   width: 300px;
+   margin: 10px;
+   padding: 20px;
+   border: 3px solid black;
+   border-radius: 5px;
+   text-align: center;
+}
+
+
+   .product button:active {
+     transform: scale(1.05);
+   }
+
+
+.product2 {
+   font-size: 20px;
+   position: absolute;
+   left: 500px;
+   top: 300px;
+   width: 300px;
+   margin: 10px;
+   padding: 20px;
+   border: 3px solid black;
+   border-radius: 5px;
+   text-align: center;
+}
+
+
+   .product2 button:active {
+     transform: scale(1.05);
+   }
+
+
+.price2 {
+   font-family: 'Lexend Peta', sans-serif;
+   font-size: 50px;
+}
+.product img {
+   max-width: 100%;
+}
+
+
+.product2 img {
+   max-width: 100%;
+}
+
+
+.product h2 {
+   margin-top: 5px;
+   font-size: 1.2em;
+}
+
+
+.product2 h2 {
+   margin-top: 5px;
+   font-size: 1.2em;
+}
+
+
+.product p {
+   font-size: 1em;
+}
+
+
+.product2 p {
+   font-size: 1em;
+}
+.price {
+   font-family: 'Lexend Peta', sans-serif;
+   font-size: 50px;
+   color: #000000;
+}
+
+
+.header_left {
+
+
+   font-family: 'Lexend Peta', sans-serif;
+   position: absolute;
+   top: -580px;
+   left: -815px;
+   width: 65%;
+   height: 100%;
+   font-size: 40px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-end;
+   padding: 0 5vw;
+   box-sizing: border-box;
+   text-align: right;
+}
+
+
+
+.transition-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff; /* Цвет фона вашего сайта */
+  z-index: 9999; /* Убедитесь, что это значение больше, чем у других элементов на странице */
+  animation: fadeOut 0.5s ease-in-out forwards; /* Анимация затухания */
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.product3 {
+    font-size: 20px;
+    position: absolute;
+    left: 900px;
+    top: 300px;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+    .product3 button:active {
+      transform: scale(1.05);
+    }
+
+.price3 {
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 50px;
+}
+.product3 img {
+    max-width: 100%;
+}
+
+.product3 img {
+    max-width: 100%;
+}
+
+.product3 h2 {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+.product3 h2 {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+.product3 p {
+    font-size: 1em;
+}
+
+.product3 p {
+    font-size: 1em;
+}
+
+.card3 h2 {
+    cursor: pointer;
+    user-select: none;
+  margin-top: 0;
+  cursor: pointer; /* Делаем текст заголовка кликабельным */
+}
+
+
+.product3 {
+    font-size: 20px;
+    position: absolute;
+    left: 900px;
+    top: 300px;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+    .product3 button:active {
+      transform: scale(1.05);
+    }
+
+.price3 {
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 50px;
+}
+.product3 img {
+    max-width: 100%;
+}
+
+.product3 img {
+    max-width: 100%;
+}
+
+.product3 h2 {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+.product3 h2 {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+.product3 p {
+    font-size: 1em;
+}
+
+.product3 p {
+    font-size: 1em;
+}
+
+.card3 h2 {
+    cursor: pointer;
+    user-select: none;
+  margin-top: 0;
+  cursor: pointer; /* Делаем текст заголовка кликабельным */
+}
+
+.product4 {
+    font-size: 20px;
+    position: absolute;
+    left: 1300px;
+    top: 300px;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+    .product4 button:active {
+      transform: scale(1.05);
+    }
+
+.price4 {
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 50px;
+}
+.product4 img {
+    max-width: 100%;
+}
+
+.product4 img {
+    max-width: 100%;
+}
+
+.product4 h2 {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+.product4 h2 {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+.product4 p {
+    font-size: 1em;
+}
+
+.product4 p {
+    font-size: 1em;
+}
+
+.card4 h2 {
+    cursor: pointer;
+    user-select: none;
+  margin-top: 0;
+  cursor: pointer; /* Делаем текст заголовка кликабельным */
+}
+
+.product5 {
+    font-size: 20px;
+    position: absolute;
+    left: 1700px;
+    top: 300px;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+    .product5 button:active {
+      transform: scale(1.05);
+    }
+
+.price5 {
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 50px;
+}
+.product5 img {
+    max-width: 100%;
+}
+
+.product5 img {
+    max-width: 100%;
+}
+
+.product5 h2 {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+.product5 h2 {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+.product5 p {
+    font-size: 1em;
+}
+
+.product5 p {
+    font-size: 1em;
+}
+
+.card5 h2 {
+    cursor: pointer;
+    user-select: none;
+  margin-top: 0;
+  cursor: pointer; /* Делаем текст заголовка кликабельным */
+}
+
+.product6 {
+    font-size: 20px;
+    position: absolute;
+    left: 2100px;
+    top: 300px;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+    .product6 button:active {
+      transform: scale(1.05);
+    }
+
+.price6 {
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 50px;
+}
+.product6 img {
+    max-width: 100%;
+}
+
+.product6 img {
+    max-width: 100%;
+}
+
+.product6 h2 {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+.product6 h2 {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+.product6 p {
+    font-size: 1em;
+}
+
+.product6 p {
+    font-size: 1em;
+}
+
+.card6 h2 {
+    cursor: pointer;
+    user-select: none;
+  margin-top: 0;
+  cursor: pointer; /* Делаем текст заголовка кликабельным */
+}
+
+
+footer {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    position: relative;
+      background: linear-gradient(to bottom right, blue, pink);
+    background-size: cover;
+    background-position: center;
+}
+#footer {
+      font-weight: bold; /* Жирный стиль текста */
+        font-size: 30px; /* Размер шрифта */
+    color: white; /* Цвет текста */
+  background-color: #f2f2f2;
+  padding: 20px 0; /* Добавляем немного внутреннего отступа сверху и снизу */
+}
+
+#footer > div {
+  width: 100%; /* Ширина контейнера равна ширине экрана */
+  text-align: center; /* Выравниваем текст по центру */
+}
+
+.tg {
+  font-weight: bold; /* Жирный стиль текста */
+    margin-top: -30px;
+    font-size: 40px; /* Размер шрифта */
+    color: white; /* Цвет текста */
+}
